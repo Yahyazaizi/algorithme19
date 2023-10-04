@@ -1,0 +1,19 @@
+Algorithme -ex-29
+
+Variables nbr-ans: entier
+
+P_aga, p-kech: réel
+
+Début
+p-kech <-- 1000000
+p-aga <-- 500000
+nbr-ans <-- 0
+Tant que p kech > p aga alors
+p-kech <-- p-kech + 50000
+p-aga <-- p-aga * 1.08
+nbr-ans <-- nbr-ans + 1
+fin Tant que
+
+Ecrire ("Agadir dépassera Marrakech après " nbr-ans "a ans ")
+
+Fin
